@@ -1,0 +1,42 @@
+.mission {
+  padding: 0rem 1rem;
+  color: var(--text-clr);
+}
+
+.mission_img img {
+  width: 100%;
+}
+.mission_description {
+  background: var(--secondary-clr-01);
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+.mission_description h1 {
+  font-family: var(--subheading-font);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.mission_description p {
+  font-family: var(--paragraph-font);
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (width>=1000px) {
+  .mission {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mission_description{
+    margin-top: 0rem;
+  }
+  .mission_description p{
+    margin-top: 15rem;
+  }
+}

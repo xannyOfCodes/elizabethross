@@ -20,7 +20,7 @@ const Hero = () => {
             <TfiEmail />
           </a>
           <p>
-            <span>Direct:</span> (+1(432)246-4294)
+            <span>Direct:</span> (+1 (432) 246-4294)
           </p>
           <span>
             <ContactBtn />

@@ -1,0 +1,20 @@
+.contact-Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 0.5rem;
+  background: var(--accent_clr-01);
+  color: var(--primary-clr);
+  text-decoration: none;
+  font-family: var(--heading-font);
+  border-radius: 5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (width>=1000px) {
+  .contact-Btn {
+    width: 13%;
+  }
+}

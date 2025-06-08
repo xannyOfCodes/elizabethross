@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import { TfiEmail } from "react-icons/tfi";
 import { PiTrademarkRegistered } from "react-icons/pi";

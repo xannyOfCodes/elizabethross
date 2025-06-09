@@ -5,15 +5,15 @@ const Services = () => {
     <>
       <div className="services">
         <div className="services_btns">
-          <button id="my_story_and_services_btn">
-            <p>My Story and services</p>
-          </button>
-          <button id="client_services_team_btn">
-            <p>Client Services Team</p>
-          </button>
-          <button id="location_btn">
-            <p>Location</p>
-          </button>
+          <p>
+            <span id="my_story_and_services_btn">My Story and services</span>
+          </p>
+          <p>
+            <span id="client_services_team_btn">Client Services Team</span>
+          </p>
+          <p>
+            <span id="location_btn">Location</span>
+          </p>
         </div>
 
         <div className="services_contents">

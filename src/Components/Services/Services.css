@@ -17,18 +17,15 @@
   scroll-snap-align: start;
   border-bottom: 1px solid var(--border-clr);
 }
-.services_btns button {
-  background: transparent;
-  border: none;
-}
-.services_btns button p {
+.services_btns span {
+  display: inline-block;
   font-family: var(--heading-font);
   color: var(--text-clr);
   font-size: 1.1rem;
   padding: 0.5rem;
   font-weight: 500;
 }
-.services_btns button:hover p {
+.services_btns span:hover {
   border-bottom: 2px solid var(--secondary-clr-02);
 }
 

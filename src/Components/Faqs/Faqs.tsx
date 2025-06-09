@@ -1,8 +1,9 @@
+import React from "react";
 import { useState } from "react";
 import "./Faqs.css";
 import { IoChevronDown } from "react-icons/io5";
 
-const Faq = (props) => {
+const Faq = (props: any) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleText = () => {

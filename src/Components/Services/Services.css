@@ -23,6 +23,7 @@
 }
 .services_btns button p {
   font-family: var(--heading-font);
+  color: var(--text-clr);
   font-size: 1.1rem;
   padding: 0.5rem;
   font-weight: 500;

@@ -1,0 +1,40 @@
+.faqs {
+  padding: 1rem;
+  background: var(--secondary-clr-01);
+}
+.faqs > div:nth-child(1) {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  text-align: center;
+  padding: 0rem 3rem;
+  line-height: 2rem;
+}
+.faqs > div:nth-child(2) {
+  margin-top: 2rem;
+}
+.faqs > div:nth-child(2) > p {
+  padding: 1rem 0rem;
+  border-top: 1px solid var(--border-clr);
+}
+
+.faq p:nth-child(1) {
+  font-family: var(--subheading-font);
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq p:nth-child(1) span:first-of-type {
+  width: 85%;
+}
+.faq p:nth-child(1) span:last-of-type {
+  font-size: 1.5rem;
+}
+.faq p:nth-child(2) {
+  font-family: var(--paragraph-font);
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: var(--dark-gray-clr);
+}

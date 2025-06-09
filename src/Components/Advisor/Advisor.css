@@ -1,0 +1,103 @@
+.advisor{
+    background: var(--secondary-clr-01);
+    padding: 4rem 1rem;
+    text-align: center;
+}
+.advisor >div:nth-child(1){
+    font-family: var(--heading-font);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.advisor >div:nth-child(2){
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+.advisor >div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.advisor >div:nth-child(2) div p:nth-child(1){
+    font-size: 2.5rem;
+    color: var(--secondary-clr-01);
+    background: #368636;
+    height: 5rem;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.advisor >div:nth-child(2) div:nth-child(2) p:nth-child(1){
+    background: #b47705;
+}
+.advisor >div:nth-child(2) div:nth-child(3) p:nth-child(1){
+    background: #07487e;
+}
+.advisor >div:nth-child(2) div p:nth-child(2){
+    font-family: var(--subheading-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.advisor >div:nth-child(2) div p:nth-child(3){
+    font-family: var(--paragraph-font);
+    color: var(--dark-gray-clr);
+}
+
+.advisor >div:nth-child(3){
+    margin-top: 10rem;
+    border-top: 1px solid var(--border-clr);
+    border-bottom: 1px solid var(--border-clr);
+    padding: 2rem 1rem;
+    text-align: start;
+}
+.advisor >div:nth-child(3) p:nth-child(1){
+    font-family: var(--paragraph-font);
+}
+.advisor >div:nth-child(3) p:nth-child(2){
+    width: 60%;
+    margin-top: 2rem;
+}
+
+
+@media (width>=1000px){
+    .advisor >div:nth-child(1){
+        letter-spacing: 2px;
+    }
+    .advisor >div:nth-child(2){
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .advisor >div:nth-child(2) div p:nth-child(1){
+        font-size: 3rem;
+        width: 6rem;
+        height: 6rem;
+    }
+    .advisor >div:nth-child(2) div p:nth-child(2){
+        font-size: 2.9rem;
+    }
+    .advisor >div:nth-child(3){
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+    .advisor >div:nth-child(3) p:nth-child(1){
+        width: 75%;
+    }
+    .advisor >div:nth-child(3) p:nth-child(2){
+        width: 20%;
+    }
+}
+

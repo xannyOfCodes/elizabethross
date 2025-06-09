@@ -1,4 +1,3 @@
-import React from "react";
 import "./Mission.css";
 import missionImg from "../../assets/image.webp";
 

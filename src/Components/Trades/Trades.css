@@ -1,0 +1,124 @@
+.Trades {
+  padding: 1rem;
+}
+.Trades img {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+}
+.Trades > div div:nth-child(1) h1 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--secondary-clr-02);
+}
+.Trades > div div:nth-child(1) p {
+  font-family: var(--subheading-font);
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.Trades > div div:nth-child(1) ul {
+  margin-top: 1rem;
+  font-family: var(--paragraph-font);
+  font-size: 0.9rem;
+  padding: 0rem 2rem;
+}
+.Trades > div div:nth-child(1) ul li {
+  margin-top: 0.5rem;
+}
+.Trades > div div:nth-child(1) a {
+  display: inline-block;
+  margin-top: 1rem;
+  border: 2px solid var(--border-clr);
+  padding: 0.7rem 2.7rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  letter-spacing: 1px;
+  color: var(--dark-gray-clr);
+}
+.Trades > div div:nth-child(1) a:hover {
+  background: var(--dark-gray-clr);
+  color: var(--secondary-clr-01);
+}
+.Trades > div > div:nth-child(2) {
+  margin-top: 1.5rem;
+}
+.Trades > div > div:nth-child(2) div{
+    height: 65vh;
+}
+.Trades > div > div:nth-child(2) div:last-of-type {
+  background: var(--secondary-clr-01);
+}
+.Trades > div > div:nth-child(2) div:last-of-type a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-clr);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Trades > div > div:nth-child(2) div:last-of-type a span:first-of-type {
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+.Trades > div > div:nth-child(2) div:last-of-type a span:last-of-type {
+  font-family: var(--paragraph-font);
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+.Trades > div > div:nth-child(2) div:last-of-type:hover {
+  background: var(--border-clr);
+}
+.Trades > div {
+  border-bottom: 1px solid var(--border-clr);
+  padding-bottom: 3rem;
+}
+.Trades > div div:nth-child(1) {
+  margin-top: 2rem;
+}
+
+@media (width>=1000px) {
+  .Trades {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Trades img {
+    transform: translateY(-2rem);
+  }
+  .Trades > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Trades > div > div:first-of-type {
+    width: 30%;
+  }
+  .Trades > div > div:last-of-type {
+    width: 65%;
+    display: flex;
+  }
+  .Trades > div > div:last-of-type div {
+    height: 65vh;
+  }
+  .Trades > div > div:last-of-type div:nth-child(1) {
+    order: 2;
+    width: 40%;
+  }
+  .Trades > div > div:last-of-type div:nth-child(2) {
+    width: 40%;
+  }
+  .Trades > div div:nth-child(1) p {
+    margin-top: 2rem;
+  }
+  .Trades > div div:nth-child(1) ul {
+    margin-top: 2rem;
+  }
+  .Trades > div div:nth-child(1) a {
+    margin-top: 2rem;
+  }
+}

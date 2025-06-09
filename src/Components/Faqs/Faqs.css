@@ -1,6 +1,7 @@
 .faqs {
   padding: 1rem;
-  background: var(--secondary-clr-01);
+  padding-top: 7rem;
+  background: var(--primary-clr);
 }
 .faqs > div:nth-child(1) {
   font-family: var(--heading-font);
@@ -37,4 +38,17 @@
   line-height: 1rem;
   margin-top: 0.5rem;
   color: var(--dark-gray-clr);
+  padding-inline: 0rem 3rem;
+}
+
+@media (width>=1000px) {
+  .faqs > div:nth-child(1) {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .faqs > div:nth-child(2) {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -12,9 +12,9 @@ const Faq = (props: any) => {
   return (
     <>
       <div className="faq">
-        <p className="faq_title">
+        <p className="faq_title" onClick={toggleText}>
           <span>{props.title}</span>
-          <span onClick={toggleText}>
+          <span>
             <IoChevronDown />
           </span>
         </p>

@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import "./Faqs.css";
 import { IoChevronDown } from "react-icons/io5";
@@ -10,7 +9,6 @@ const Faq = (props: any) => {
     setIsVisible(!isVisible);
   };
 
-  const faqDescription = [""];
   return (
     <>
       <div className="faq">
